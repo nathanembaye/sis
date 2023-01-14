@@ -21,8 +21,9 @@
     "dark-mode-toggle-animation": "^1.0.0",
     "framer-motion": "^3.6.2",
     "next": "^13.1.2",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
