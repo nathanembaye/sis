@@ -79,7 +79,7 @@ export default function Layout({ children }) {
         <motion.div layoutId="social-icons" className="flex items-center justify-center">
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href={asPath+"Resume.pdf"}
+            href={asPath+"sis/Resume.pdf"}
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl " icon={faFile} />
