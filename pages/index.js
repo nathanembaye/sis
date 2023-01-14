@@ -22,7 +22,7 @@ export default function Home() {
           <h2 className="text-lg tracking-widest text-center">POLICY ANALYST</h2>
           <br/>
           
-          <div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Public policy professional energized by work at the intersection of technology and government. 📌</div><div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Previously @twitter, I worked on pressing tech policy challenges and solutions to serve our users interests. 👩🏾‍💻</div><div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Prior to that I was a Policy Analyst with the Government of Canada, leading on Access to Information issues related to privacy and data governance. 🇨🇦</div>  
+          <div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Public policy professional energized by work at the intersection of technology and government. 📌</div><div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Previously @twitter, I worked on pressing tech policy challenges + solutions to serve our users interests. 👩🏾‍💻</div><div style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Prior to that I was a Policy Analyst with the Government of Canada, leading on Access to Information issues related to privacy and data governance. 🇨🇦</div>  
         </div>
       </motion.div>
     </Layout>
