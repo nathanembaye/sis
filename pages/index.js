@@ -1,5 +1,8 @@
 import Layout from '../components/layout'
 import { motion } from 'framer-motion'
+import { useRouter } from 'next/router'
+
+const { asPath } = useRouter()
 
 export default function Home() {
   return (
@@ -12,7 +15,7 @@ export default function Home() {
         className="flex flex-col items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center">
-          <img className="w-32 h-32 mb-8 rounded-full" src="sis/sharon.jpeg" alt="Katherine" />
+          <img className="w-32 h-32 mb-8 rounded-full" src={asPath+"sis/sharon.jpeg"} alt="Katherine" />
           <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl">
             SHARON EMBAYE
           </h1>
