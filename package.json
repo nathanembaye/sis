@@ -20,10 +20,9 @@
     "@fortawesome/react-fontawesome": "^0.1.19",
     "dark-mode-toggle-animation": "^1.0.0",
     "framer-motion": "^3.6.2",
-    "next": "^13.1.2",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-scripts": "^5.0.1"
+    "next": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
