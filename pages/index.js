@@ -11,8 +11,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="flex flex-col items-center justify-center"
-      >
+        className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center">
           <img className="w-32 h-32 mb-8 rounded-full" src={asPath+"sis/sharon.jpeg"} alt="NOT FOUND" />
           <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl">
