@@ -1,11 +1,14 @@
 {
+  "homepage": "http://nathanembaye.github.io/sis",
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.4",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3"
   }
