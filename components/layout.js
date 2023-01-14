@@ -86,7 +86,7 @@ export default function Layout({ children }) {
           </a>
           <a
             className="text-gray-400 dark:text-white hover:text-lightBlue-600 dark:hover:text-pink-500"
-            href="https://twitter.com/katherinecodes"
+            href="https://twitter.com/sharon_emb"
             target="_blank"
           >
             <FontAwesomeIcon className="mr-6 text-2xl" icon={faTwitter} />
