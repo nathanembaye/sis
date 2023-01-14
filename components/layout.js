@@ -72,8 +72,7 @@ export default function Layout({ children }) {
         </motion.div>
         <motion.div
           layoutId="border-div"
-          className="flex flex-col items-center justify-center w-full py-8 my-6 border-t border-b border-gray-300 dark:border-white"
-        >
+          className="flex flex-col items-center justify-center w-full py-8 my-6 border-t border-b border-gray-300 dark:border-white">
           <AnimatePresence exitBeforeEnter>{children}</AnimatePresence>
         </motion.div>
         <motion.div layoutId="social-icons" className="flex items-center justify-center">
