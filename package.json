@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export" : "next export",
     "start": "next start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "lint": "lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
