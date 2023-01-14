@@ -21,7 +21,7 @@ export default function Home() {
           <hr className="w-16 my-8 border-gray-300" />
           <h2 className="text-lg tracking-widest text-center">POLICY ANALYST</h2>
           <br/>
-          <p className="mb-6 text-center text-gray-800 dark:text-white">Public policy professional energized by work at the intersection of technology and government. Previously at Twitter, I worked on pressing tech policy challenges + solutions to advance our mission, and serve users interests. Before that, a Policy Analyst with the Government of Canada leading on Access to Information issues related to privacy, data governance and Indigenous peoples.</p>
+          <p style={{ fontSize: "15px" }} className="mb-6 text-center text-gray-800 dark:text-white">Public policy professional energized by work at the intersection of technology and government. Previously at Twitter, I worked on pressing tech policy challenges + solutions to advance our mission, and serve users interests. Before that, a Policy Analyst with the Government of Canada leading on Access to Information issues related to privacy, data governance and Indigenous peoples.</p>
         </div>
       </motion.div>
     </Layout>
